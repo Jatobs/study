@@ -1,0 +1,160 @@
+
+/* Banner */
+
+.banners {
+    background-color: black;
+}
+
+.banner{
+    color: white;   
+    height: 700px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    width: 50%;
+    float: right;
+    margin-top: 190px;
+}
+
+.banner-content-next {
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banner-content-next span {
+    color: var(--yellow);
+}
+
+.banner-content-title {
+    font-size: 100px;
+    line-height: 100px;
+    text-transform: uppercase; 
+    margin: 30px 0;
+}
+
+.banner-content-title span {
+    color: var(--yellow);
+}
+
+.banners .slick-prev {
+    left: 150px;
+    z-index: 2;
+}
+
+.banners .slick-next {
+   right: 150px;
+    z-index: 2;
+}
+
+
+/* Statistics */
+
+.statistics {
+    background-color: var(--yellow);
+    color: white;
+    padding: 80px 0 70px;
+    float: left;
+    width: 100%;
+}
+
+.statistics-col {
+    width: 33.333%;
+    float: left;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.statistics-item {
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.statistics-item small {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Institucional */
+
+.institutional {
+    padding: 80px 0;
+    clear: both;
+    float: left;
+    width: 100%;
+    background: white;
+}
+
+.institutional-image {
+    float: left;
+    padding: 70px 0 70px;
+    height: 500px;
+    width: 670px;
+}
+
+.institutional-content {
+    float: right;
+    width: 420px;
+    margin-top: 170px;
+}
+
+h2.institutional-title {
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-bottom: 20px;
+}
+
+h3.institutional-title {
+    font-size: 25px;
+    margin: 15px 0 30px;
+}
+
+.institutional-description {
+    margin: 0 0 30px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+/* parallax */
+
+.parallax {
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    clear: both;
+    background: transparent;
+}
+
+.parallax-box {
+    width: 700px;
+    background: white; 
+    float: right;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.parallax-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.parallax-box-big {
+    display: block;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 20px 0; 
+}
+
+.parallax-box-color {
+    color: var(--yellow);
+}
+

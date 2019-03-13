@@ -1,0 +1,336 @@
+@media screen and (max-width: 1140px) {
+
+   /*global*/
+
+    .container {
+        width: 768px;      
+    } 
+
+    .header-logo {
+        font-size: 25px;
+        display: inline-block;
+    }
+    
+    .header-menu-link {
+        font-size: 13px;        
+        padding: 5px;       
+    }
+
+    .cover-page-title {
+        float: right;
+        font-size: 70px;   
+        margin-bottom: 10px;
+    }
+
+    .cover-page-content {
+        margin-top: 150px;
+    }
+    
+    .cover-page-description {
+        float: right;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .slick-prev {
+        left: 200px;
+    }
+        [dir='rtl'] .slick-prev 
+    {
+        right: 200px;
+        left: auto;
+    }
+
+    .slick-prev:before {
+        content: '←';
+    }
+        [dir='rtl'] .slick-prev:before
+    {
+        content: '→';
+    }
+
+    .slick-next {
+        right: 200px;
+    }
+        [dir='rtl'] .slick-next
+    {
+        right: auto;
+        left: 200px;
+    }
+
+    .slick-next:before {
+        content: '→';
+    }
+        [dir='rtl'] .slick-next:before
+    {
+        content: '←';
+    }
+     
+
+    .banner{
+        color: white;   
+        height: 400px;        
+    }
+
+    .banner-content {
+        width: 50%;
+        float: right;
+        margin-top: 135px;
+    }
+    
+    .banner-content-next {
+        font-size: 80%;      
+        letter-spacing: 1px;
+    }
+
+    .banner-content-title {
+        font-size: 50px;
+        line-height: 50px;
+        margin: 20px 10px 20px 0; 
+    }
+
+    .banners .slick-prev {
+        left: 50px;
+        z-index: 2;
+    }
+    
+    .banners .slick-next {
+       right: 50px;
+        z-index: 2;
+    }
+
+    .cover-page {
+        height: 400px;
+    }
+
+    .btn {
+        font-size: 10px;       
+        padding: 10px 13px;
+    }
+     
+    /*home*/
+
+    .statistics {        
+        padding: 40px 0 35px;        
+    }
+
+    .statistics-item {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    
+    .statistics-item small {
+        font-size: 15px;
+    }
+  
+    h2.institutional-title {
+        font-size: 8px;        
+    }
+     
+    h3.institutional-title {
+        font-size: 15px;
+        margin: 10px 0 30px;
+    }
+    .institutional-image {        
+        height: 300px;
+        width: 402px;
+    }
+
+    .institutional-image-a {
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+
+    .institutional-content {
+        float: right;
+        width: 280px;
+        margin: 80px 30px 0 0;        
+    }
+    
+    .institutional-description {
+        margin: 0 0 30px;
+        font-size: 10px;
+        line-height: 27px;
+    }
+
+    .parallax-box {
+        width: 500px;
+        padding: 60px;
+    }
+    
+    .parallax-title{
+        font-size: 10px;
+    }
+    
+    .parallax-box-big {
+        display: block;
+        font-size: 50px;
+        line-height: 50px;
+        margin: 20px 0; 
+    }
+
+    
+    /*events*/
+    
+    .event-info {
+        float: left;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .event-title {
+        font-size: 12px;
+        float: left;
+        margin-left: 5px;
+    }
+  
+    .event-date {
+        clear: both;
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin: 20px 0;
+        margin-left: 5px;
+        float: left;
+    }
+   
+    .event-description p {
+        margin: 0;
+        margin-left: 5px;
+        font-size: 12px;
+        line-height: 17px;
+        width: 300px;
+        float: left;
+    }
+
+    .event-description a {
+        float: right;
+    }
+    
+    .event-footer {
+        margin-top: 10px;
+    }
+    
+    .event-local {
+        float: left;
+        width: 450px;
+        margin-left: 0px;
+        padding: 10px;    
+    }
+
+    .event-local-icon {
+        float: left;
+        font-size: 20px;
+        margin-top: 2px;
+        margin-right: 10px;
+    }
+    
+    .event-local-info h2 {
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+
+    .event-local-info h3 {
+        font-size: 8px;
+        letter-spacing: 1px; 
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    
+    .event-local-link {
+        padding: 10;
+        margin-right: 30px;
+        font-weight: bold;
+        color: var(--yellow);
+        text-decoration: none;
+    }
+
+    /*depoiments*/
+
+    .depoiments-photo-a {
+        height: 200px;
+        width: 200px;
+    }
+
+    .depoiments-name {
+        font-size: 30px;
+        margin: 0;
+        display: inline-block;
+    }
+    
+    .depoiments-name small {
+        font-size: 14px;
+        line-height: 3px;
+        display: block;       
+    }
+    
+    .depoiments-quote {
+        font-size: 74px;
+        font-weight: 700;
+        height: 65px;
+    }
+    
+    .depoiments-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /*Contact*/
+
+    .contact-content {
+        padding: 0;
+    }
+    .contact-col h2 {
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+
+    .contact-item {
+        font-size: 15px;
+    }
+    
+    .contact-item i {
+        font-size: 12px;
+        color: var(--yellow);
+    }
+    
+    .contact-form-item label {
+        font-size: 14px;
+    }
+
+    .contact-form-item input,
+    .contact-form-item textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /*footer*/
+
+    .social-link li {
+        display: inline-block;
+        font-size: 20px;    
+    }
+
+    .footer-news label {
+        font-size: 10px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .footer-news input {
+        border: 0;    
+        padding: 0 10px;
+        height: 36px;
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .footer-news button {
+        height: 36px;
+        padding: 0 15px;
+        font-size: 20px;
+    }
+
+
+}

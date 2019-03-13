@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StudyOn</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/Style StudyOn.css">
+    
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h2 class="header-logo">
+                <a href="Index.html">
+                    Study<span class="header-logo-on">On</span>
+                    <span class="header-logo-slogan">Estudos</span>
+                </a>
+            </h2>
+
+            <nav class="header-menu">
+                <a href="Company.html" class="header-menu-link">Empresa</a>
+                <a href="Events.html" class="header-menu-link">Eventos</a>
+                <a href="Galery.html" class="header-menu-link">Galeria</a>
+                <a href="Depoiments.html" class="header-menu-link">Depoimentos</a>
+                <a href="Contact.html" class="header-menu-link">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cover-page cover-contact">
+        <div class="container">
+            <div class="cover-page-content">
+                <h1 class="cover-page-title">.contato</h1>
+                <p class="cover-page-description">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contact">
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-col">
+                    <address>
+                        <div class="contact-info">
+                            <h2>Ligue pra gente</h2>
+    
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i> + 55 48 3222-2223                            
+                            </div>
+    
+                            <div class="contact-item">
+                                <i class="fab fa-whatsapp"></i> + 55 48 99999-9991
+                        </div>          
+        
+                        </div>
+        
+                            <h2>Venha nos conhecer</h2>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i> Rua Miguel Daux, 129 - Coqueiros - Florianópolis - SC
+                            </div>                     
+                    </address> 
+                </div> 
+        
+                <div class="contact-col">
+                    <h2>Deixe sua mensagem</h2>  
+                        <form action="#" class="contact-form">
+                            <div class="contact-form-item">
+                                <label for="name">Seu Nome</label>
+                                <input type="text" id="name">
+                            </div>
+
+                            <div class="contact-form-item">
+                                <label for="email">Seu E-mail</label>
+                                <input type="text" id="email">
+                            </div>
+
+                            <div class="contact-form-item">
+                                <label for="mensagem">Sua Mensagem</label>
+                                <textarea id="message"></textarea>
+                            </div>
+
+                            <div class="contact-form-item">
+                                <button type="submit" class="btn btn1">Enviar</button>
+                            </div> 
+                        </form>
+
+                </div>            
+            </div>
+        </section>
+
+        <div id="map" class="contact-map"></div>
+        
+    </main>
+  
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="header-logo">Study<span class="header-logo-on">On</span>
+                        <span class="header-logo-slogan">Estudos</span>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <form action="#" class="footer-news">
+                        <label for="news-email">Receba News <br> e promoções</label>
+                        <input type="email" id="news-email" placeholder="E-mail">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+                <div class="footer-col">
+                    <ul class="social-link">
+                        <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li> <a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                    Study<spam>ON</spam> - Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript">
+        
+        google.maps.event.addDomListener(window, 'load', init);
+    
+        function init() {            
+            var mapOptions = {                
+                zoom: 17,  
+                center: new google.maps.LatLng(-27.608808, -48.577737),                           
+                styles: [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"on"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#e5c163"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#c4c4c4"}]},{"featureType":"administrative.neighborhood","elementType":"labels.text.fill","stylers":[{"color":"#e5c163"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21},{"visibility":"on"}]},{"featureType":"poi.business","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#e5c163"},{"lightness":"0"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"labels.text.stroke","stylers":[{"color":"#e5c163"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#575757"}]},{"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"labels.text.stroke","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#999999"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+            };
+
+            var mapElement = document.getElementById('map');
+           
+            var map = new google.maps.Map(mapElement, mapOptions);
+           
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(-27.608808, -48.577737),
+                map: map,
+                title: 'Centro de Estudos StudyOn',                
+            });
+        }
+    </script>
+</body>
+</html>
